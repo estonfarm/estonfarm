@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Stone Farm | Smart Farming for a Sustainable Planet</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap">
+  <style>
+    body { margin: 0; font-family: "Noto Sans", sans-serif; color: #333; background: #fff; }
+    header { border-bottom: 1px solid #eee; padding: 15px 0; }
+    .container { width: 90%; max-width: 1100px; margin: auto; }
+    .header { display: flex; justify-content: space-between; align-items: center; }
+    .logo { height: 45px; }
+    nav a { margin-left: 20px; text-decoration: none; color: #333; font-weight: 500; }
+    nav a:hover { color: #009688; }
+    .lang-toggle { border: 1px solid #009688; border-radius: 5px; padding: 5px 10px; background: none; color: #009688; cursor: pointer; }
+    .hero { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: 70px 0; }
+    .hero h1 { font-size: 2em; color: #009688; }
+    .hero p { max-width: 500px; line-height: 1.6; }
+    .btn-primary { background: #009688; color: #fff; padding: 10px 18px; border-radius: 25px; text-decoration: none; margin-right: 10px; }
+    .btn-secondary { border: 1px solid #009688; color: #009688; padding: 10px 18px; border-radius: 25px; text-decoration: none; }
+    section { padding: 70px 0; }
+    section.light { background: #f9f9f9; }
+    h2 { color: #222; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+    footer { background: #009688; color: #fff; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header">
+      <img src="assets/logo.png" alt="E-Stone Farm Logo" class="logo" />
+      <nav>
+        <a href="#about" data-en="About" data-ko="회사소개">About</a>
+        <a href="#technology" data-en="Technology" data-ko="기술">Technology</a>
+        <a href="#projects" data-en="Projects" data-ko="프로젝트">Projects</a>
+        <a href="#partners" data-en="Partners" data-ko="협력사">Partners</a>
+        <a href="#contact" data-en="Contact" data-ko="문의하기">Contact</a>
+      </nav>
+      <button class="lang-toggle" id="langBtn">KOR 🇰🇷</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero container">
+    <div>
+      <h1 data-en="Smart Farming for a Sustainable Planet" data-ko="지속 가능한 지구를 위한 스마트팜">Smart Farming for a Sustainable Planet</h1>
+      <p data-en="E-Stone Farm integrates AI, RE100, and circular energy systems to build climate-resilient smart farms — from Jeju to the world."
+         data-ko="이스톤팜은 AI, RE100, 순환형 에너지 시스템을 통합하여 제주에서 세계로 확장하는 기후 회복형 스마트팜을 구축합니다.">
+         E-Stone Farm integrates AI, RE100, and circular energy systems to build climate-resilient smart farms — from Jeju to the world.
+      </p>
+      <div>
+        <a href="assets/whitepaper.pdf" target="_blank" class="btn-primary" data-en="Download White Paper" data-ko="화이트페이퍼 다운로드">Download White Paper</a>
+        <a href="#projects" class="btn-secondary" data-en="View Projects" data-ko="프로젝트 보기">View Projects</a>
+      </div>
+    </div>
+    <img src="assets/illustration.png" alt="Smart Farm Illustration" style="max-width:400px;">
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2 data-en="About Us" data-ko="회사 소개">About Us</h2>
+    <p data-en="We create low-carbon smart farms combining AI, renewable energy, and circular economy principles."
+       data-ko="AI와 재생에너지, 순환경제를 결합하여 저탄소 스마트팜을 구현합니다.">
+       We create low-carbon smart farms combining AI, renewable energy, and circular economy principles.
+    </p>
+    <div class="grid">
+      <div>
+        <h3 data-en="Our Vision" data-ko="비전">Our Vision</h3>
+        <p data-en="Build sustainable, data-driven farms that respond to global climate change."
+           data-ko="기후변화에 대응하는 지속 가능한 데이터 기반 스마트팜을 구축합니다."></p>
+      </div>
+      <div>
+        <h3 data-en="Our Mission" data-ko="미션">Our Mission</h3>
+        <p data-en="Lead innovation with RE100 and AI for global carbon reduction."
+           data-ko="RE100과 AI로 탄소 감축을 선도합니다."></p>
+      </div>
+      <div>
+        <h3 data-en="Core Values" data-ko="핵심 가치">Core Values</h3>
+        <ul>
+          <li data-en="Move – Modular, mobile, expandable ESS" data-ko="Move – 이동형, 모듈형, 확장형 ESS"></li>
+          <li data-en="Share – Energy sharing & P2P power trading" data-ko="Share – 배터리 공유 및 전력 거래"></li>
+          <li data-en="Reuse – Battery reuse from EV and e-bikes" data-ko="Reuse – 전기차 및 전기이륜차 배터리 재사용"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology -->
+  <section id="technology" class="section light">
+    <div class="container">
+      <h2 data-en="Technology" data-ko="기술">Technology</h2>
+      <p data-en="AI Farm OS + MOBI ESS + RE100 hybrid system ensure stable, eco-friendly operation."
+         data-ko="AI팜 OS + 모비 ESS + RE100 하이브리드 시스템으로 안정적이고 친환경적인 운영을 실현합니다."></p>
+      <div class="grid">
+        <div><h4>AI Farm OS</h4><p data-en="AI-based environmental control and growth optimization."
+           data-ko="AI 기반 환경제어 및 생육 최적화."></p></div>
+        <div><h4>ESS Integration</h4><p data-en="Reused battery energy storage ensures off-grid stability."
+           data-ko="재사용 배터리 ESS로 안정적인 오프그리드 운영."></p></div>
+        <div><h4>RE100 System</h4><p data-en="Solar-powered energy autonomy for 100% green operation."
+           data-ko="태양광 기반 100% 녹색 에너지 자립."></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2 data-en="Contact Us" data-ko="문의하기">Contact Us</h2>
+    <p data-en="Email: contact@estonefarm.co.kr" data-ko="이메일: contact@estonefarm.co.kr"></p>
+    <p data-en="Address: Jeju Smart Innovation Hub, Jeju, South Korea"
+       data-ko="주소: 제주 스마트 혁신허브, 제주특별자치도"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 E-Stone Farm. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    const langBtn = document.getElementById('langBtn');
+    let currentLang = 'en';
+
+    function switchLang(lang) {
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.textContent = el.getAttribute(`data-${lang}`);
+      });
+      currentLang = lang;
+      langBtn.textContent = lang === 'en' ? 'KOR 🇰🇷' : 'ENG 🇺🇸';
+    }
+
+    // Detect browser language
+    const userLang = navigator.language.startsWith('ko') ? 'ko' : 'en';
+    switchLang(userLang);
+
+    langBtn.addEventListener('click', () => {
+      switchLang(currentLang === 'en' ? 'ko' : 'en');
+    });
+  </script>
+</body>
+</html>
